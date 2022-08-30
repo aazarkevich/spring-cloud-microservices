@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>spring-cload-microservices</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>MultiModule application</name>
+    <properties>
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
+        <maven.compiler.release>13</maven.compiler.release>
+    </properties>
+    <parent>
+<!--        <groupId>org.springframework.cloud</groupId>-->
+<!--        <artifactId>spring-cloud-build</artifactId>-->
+<!--        <version>2.3.5.RELEASE</version>-->
+<!--        <relativePath/>-->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-parent</artifactId>
+            <version>2.3.2.RELEASE</version>
+            <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <modules>
+        <module>account-service</module>
+        <module>bill-service</module>
+        <module>deposit-service</module>
+        <module>config-service</module>
+        <module>gateway</module>
+        <module>notification-service</module>
+        <module>registry</module>
+    </modules>
+
+
+</project>

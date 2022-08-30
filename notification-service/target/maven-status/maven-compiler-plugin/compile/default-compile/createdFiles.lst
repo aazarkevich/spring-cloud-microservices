@@ -1,0 +1,5 @@
+com\notification\service\DepositResponseDTO.class
+com\notification\service\DepositMessageHandler.class
+com\notification\config\MailConfig.class
+com\notification\config\RabbitMQConfig.class
+com\notification\NotificationApplication.class

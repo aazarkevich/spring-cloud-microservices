@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bill-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-service/src/main/resources/services/account-service.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/deposit-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/deposit-service/src/main/java/com/deposit/service/DepositService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/deposit-service/src/test/java/depositservice/controller/DepositControllerTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/deposit-service/src/test/resources/bootstrap.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/notification-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>
